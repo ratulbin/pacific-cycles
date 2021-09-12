@@ -1,0 +1,217 @@
+img{
+    max-width: 100% !important;
+}
+.header{
+    background: #000;
+}
+.logo{
+    padding-left: 48px;
+}
+.content .nav.main-menu{
+    padding-left: 88px;
+}
+.main-menu .nav-link{
+    text-transform: uppercase;
+    color:#8b8b8f;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 3.13;
+}
+.main-menu .nav-link:hover{
+    color:#525253;
+}
+.main-menu .nav-link.active{
+    color: #000;
+}
+
+/* breadcrumb color */
+.breadcrumb{
+    padding-left: 0;
+}
+.breadcrumb-item a{
+    color: #8b8b8f;
+}
+.breadcrumb-item.active {
+    color: #000;
+}
+.heding-text{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#myBikes .card .btn{
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 14px;
+    color: #f99b0c;
+}
+#myBikes .card{
+    border: none;
+    margin-right: 10px;
+}
+#myBikes .card-title{
+    margin: 2px 8px 10px 0; 
+    font-family: Montserrat;  
+    font-size: 12px;  
+    font-weight: 500; 
+    line-height: 20px; 
+   letter-spacing: normal;
+    color: #000;
+ 
+  }
+  #myBikes   .card-text {
+    margin: 10px 12px 10px 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;  
+    letter-spacing: normal; 
+    color: #000;
+  
+  }
+.card img{
+    width: 128px;
+    margin: auto;
+}
+.thisDark{
+    background: #000;
+    color: #fff;
+}
+.just-bg{
+    background: #f5f5f5;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 20px;
+}
+#myBikes td div.btn,
+div.btn{
+    border-radius: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: auto;
+    color: #fff;
+}
+#myBikes td,
+#myBikes th{
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+footer{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #808080;
+    padding: 37px;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+#myBikes {
+    overflow-x: hidden;
+
+}
+#myBikes .table {
+    border: 1px solid #ddd !important;
+}
+#myBikes .table tr.left-border{
+    border-left: 2px solid #999;;
+}
+.bread{
+    display: none;
+}
+.showmobile a,.showmobile i{
+    display: none;
+}
+.showdesktop{
+    display: block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1072px)  {
+    .content .nav.main-menu{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+   
+}
+@media screen and (max-width: 768px) {
+ #myBikes .card{
+        border: none;
+        margin-right: 10px;
+        width: 30% !important;
+        
+    } 
+    .just-bg .d-flex{
+        flex-basis: 30%;
+        flex-wrap: wrap;
+    }
+ .justhide{
+     display: none;
+ }
+    .showmobile{
+        display: block;
+        border: 1px solid #000;
+    }
+    .showmobile i{
+        display: block;
+    }
+    .showmobile a{
+        display: block;
+        text-transform: uppercase;
+        color:#000;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 3.13;
+    }
+    .showmobile a:hover{
+        color: #000;
+    }
+    .showdesktop{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .content .nav.main-menu{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+.bread{
+    display: block;
+}
+
+  }
+@media screen and (max-width: 468px){
+    .just-bg .d-flex{
+        flex-basis: 46%;
+        flex-wrap: wrap;
+    }
+    #myBikes .card{
+        border: none;
+        margin-right: 10px;
+        width: 46% !important;
+        
+    } 
+    footer{
+        font-size: 12px;
+        padding: 30px 0 !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .just-bg .d-flex{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+    #myBikes .card{
+        border: none;
+        margin-right: 10px;
+        width: 100% !important;
+        
+    } 
+
+}
